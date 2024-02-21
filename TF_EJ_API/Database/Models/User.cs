@@ -6,5 +6,8 @@ public class User
     public string FirstName { get; set; } = null!;
     public string LastName { get; set; } = null!;
     public DateTime BirthDay { get; set; }
-    public int MyProperty { get; set; }
+    public string? PostCode { get; set; }
+    public string? Address { get; set; }
+    public required string Email { get; set; }
+    public bool IsActive { get; set; }
 }

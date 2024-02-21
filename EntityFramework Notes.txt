@@ -1,0 +1,12 @@
+Entity Framework: 
+
+	Create Migration: Add-Migration InitialCreate
+
+
+	New Migration: Add-Migration AddBlogCreatedTimestamp
+	Update DB: Update-Database
+
+
+DOCKER: 
+	docker init
+	docker compose up --build -d
